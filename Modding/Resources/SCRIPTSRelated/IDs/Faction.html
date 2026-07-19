@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="no-referrer">
+
+    <script src="../../../../load.js" defer></script>
+    <script src="../../../../pickstyle.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="64x64" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../localstyle.css" />
+    <title>Faction IDs</title>
+    <script defer>
+      document.addEventListener('DOMContentLoaded', () => {
+        const target = document.querySelector('section.content');
+        target.innerHTML = document.getElementById('preloaded-content').innerHTML;
+      });
+    </script>
+  </head>
+  <body>
+    <header></header>
+    <section class="hero">
+      <img alt="Bully Modding Documentation" src="../../../../Assets/Comics.png" />
+    </section>
+    <div class="wrapper">
+      <!-- Placeholder -->
+      <section class="content">
+        <h1>Loading…</h1>
+      </section>
+    </div>
+    <!-- Hidden real content -->
+    <template id="preloaded-content">
+      <h1>Faction IDs</h1>
+      <hr />
+      <aside>
+        <img class="float-right" src="../../../../Assets/screenshots/sSvIogd.jpg" />
+      </aside>
+      <table>
+        <thead>
+          <tr>
+            <th>Faction ID</th>
+            <th>Faction Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>0</td><td>PREFECT</td></tr>
+          <tr><td>1</td><td>NERD</td></tr>
+          <tr><td>2</td><td>JOCK</td></tr>
+          <tr><td>3</td><td>DROPOUT</td></tr>
+          <tr><td>4</td><td>GREASER</td></tr>
+          <tr><td>5</td><td>PREPPY</td></tr>
+          <tr><td>6</td><td>STUDENT</td></tr>
+          <tr><td>7</td><td>COP</td></tr>
+          <tr><td>8</td><td>TEACHER</td></tr>
+          <tr><td>9</td><td>TOWNPERSON</td></tr>
+          <tr><td>10</td><td>SHOPKEEP</td></tr>
+          <tr><td>11</td><td>BULLY</td></tr>
+          <tr><td>12</td><td>DEFAULT</td></tr>
+          <tr><td>13</td><td>PLAYER1</td></tr>
+          <tr><td>14</td><td>PLAYER2</td></tr>
+        </tbody>
+      </table>
+    </template>
+    <footer></footer>
+  </body>
+</html>
